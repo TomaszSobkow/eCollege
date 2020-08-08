@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="topic9.exceptions.GUISwing">
+  <grid id="27dc6" binding="MainPanel" layout-manager="FormLayout">
+    <rowspec value="center:d:grow"/>
+    <colspec value="fill:d:grow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="259" y="62" width="921" height="661"/>
+    </constraints>
+    <properties>
+      <background color="-15957075"/>
+      <enabled value="false"/>
+    </properties>
+    <border type="bevel-raised" title-justification="1">
+      <font/>
+      <color color="-9461447"/>
+    </border>
+    <children>
+      <grid id="98a65" binding="MenuPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-9461447"/>
+        </properties>
+        <border type="line">
+          <title-color color="-4473925"/>
+          <color color="-6218703"/>
+        </border>
+        <children/>
+      </grid>
+      <grid id="f1ada" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <background color="-14139106"/>
+        </properties>
+        <border type="line"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

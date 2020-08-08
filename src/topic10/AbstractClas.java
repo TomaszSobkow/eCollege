@@ -1,0 +1,1 @@
+package topic10;abstract class AbstractClass1 {}

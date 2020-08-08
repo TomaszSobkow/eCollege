@@ -1,0 +1,1 @@
+package topic10.enthuwareTest;public class TestClas1 {    public static void main(String args[ ] ){     Object a, b, c ;     a = "A";     b = new String("B");     c = a;     a = b;     System.out.println(""+c+"-"+a);     int index =1;     String[] array = new String[5];     String inArra = array[index];        System.out.println(inArra);}}

@@ -1,0 +1,1 @@
+package topic10;public class ClassPrivate {    private int a;}

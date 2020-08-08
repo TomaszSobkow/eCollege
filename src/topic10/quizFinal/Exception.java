@@ -1,0 +1,1 @@
+package topic10.quizFinal;public class Exception extends Throwable {    public static void main(String[] args) {        int a = 0;        try {        }catch (ArithmeticException ex){            System.out.println("Ca");        }    }}
