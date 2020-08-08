@@ -3,7 +3,7 @@ import java.time.temporal.ChronoUnit;
 
 public class SpeedStringStringBuilder {
 
-    static long loops = 130_000;
+    private static long loops = 130_000;
 
     public static void main(String[] args) {
 
@@ -17,17 +17,19 @@ public class SpeedStringStringBuilder {
 
     }
 
-    static double StringTime ( ){
-        String testString1 = "";
+    private static double StringTime(){
+        String testString = "";
         LocalTime start = LocalTime.now();
         System.out.println("String class TEST\nStart time " + start);
-        for(int i = 0; i <loops; i++) testString1 += "-";
+        for(int i = 0; i <loops; i++) {
+            testString += "-";
+        }
         LocalTime finishTime = LocalTime.now();
         System.out.println("Finish time "+ finishTime+"\nloops number "+ loops);
         return ChronoUnit.MILLIS.between(start,finishTime) * 0.001;
     }
 
-    static double StringBuilderTime(){
+    private static double StringBuilderTime(){
         StringBuilder testBuilder = new StringBuilder();
         LocalTime start = LocalTime.now();
         System.out.println("StringBuilder class TEST\nStart time " + start);
