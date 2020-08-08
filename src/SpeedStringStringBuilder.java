@@ -18,10 +18,10 @@ public class SpeedStringStringBuilder {
     }
 
     static double StringTime ( ){
-        String testString = "";
+        String testString1 = "";
         LocalTime start = LocalTime.now();
         System.out.println("String class TEST\nStart time " + start);
-        for(int i = 0; i <loops; i++) testString += "-";
+        for(int i = 0; i <loops; i++) testString1 += "-";
         LocalTime finishTime = LocalTime.now();
         System.out.println("Finish time "+ finishTime+"\nloops number "+ loops);
         return ChronoUnit.MILLIS.between(start,finishTime) * 0.001;
